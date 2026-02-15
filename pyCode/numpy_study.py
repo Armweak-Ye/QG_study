@@ -1,0 +1,11 @@
+import numpy as np
+print(np.__version__)
+a = np.arange(12).reshape(3, 4)
+print(a)
+print(a.shape)
+print(a.dtype)
+print(a.ndim)
+a.shape = (4, 3)
+print(a)
+b = np.array(a.flatten())
+print(b)
