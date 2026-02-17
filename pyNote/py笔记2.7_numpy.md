@@ -395,3 +395,28 @@ print(inverse_matrix)
 '''
 ```
 
+# 矩阵乘法
+
+```
+numpy.dot(a, b, out=None) 
+```
+
+**参数说明：**
+
+- **a** : ndarray 数组
+- **b** : ndarray 数组
+- **out** : ndarray, 可选，用来保存dot()的计算结果
+
+```python
+import numpy.matlib
+import numpy as np
+ 
+a = np.array([[1,2],[3,4]])
+b = np.array([[11,12],[13,14]])
+print(np.dot(a,b))
+
+'''
+[[37  40] 
+ [85  92]]
+ '''
+```
